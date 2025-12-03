@@ -1,0 +1,12 @@
+.text-A {
+    flex-direction: row;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(33, 175, 175);
+    color: white;
+    align-items: center;
+}
+
+.text-B {
+    flex-direction: ;
+}

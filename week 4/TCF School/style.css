@@ -23,16 +23,17 @@ body {
 
         nav ul li a {
             color: white;
-            text-decoration: none;
+            text-align: center;
             font-size: 16px;
         }
 
         nav ul li a:hover {
-            text-decoration: underline;
+            text-align: center;
         }
 
         /* Sections */
         section {
+        
             padding: 40px;
             background-color: rgb(110, 21, 21);
             margin: 20px;
@@ -45,7 +46,7 @@ body {
 
         footer {
             text-align: center;
-            background-color: #2c3e50;
+            background-color: black;
             color: white;
             padding: 10px;
         }
@@ -86,6 +87,7 @@ body {
             font-size: 32px;
             line-height: 1.6;
         }
+        about css
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f6f8;
@@ -105,7 +107,7 @@ body {
             background-color: white;
         }
         h2 {
-            color: #2c3e50;
+            color: #f5f7f8;
         }
         p {
             line-height: 1.6;
@@ -114,7 +116,7 @@ body {
         footer {
             text-align: center;
             padding: 10px;
-            background-color: #2c3e50;
+            background-color: black;
             color: white;
             margin-top: 20px;
         }
@@ -131,7 +133,7 @@ body {
             padding: 20px;
         }
         .container {
-            max-width: 600px;
+            max-width: 620px;
             margin: 30px auto;
             background-color: white;
             padding: 25px;
@@ -169,6 +171,46 @@ body {
         }
         footer {
             text-align: center;
-            margin-top: 20px;
-            color: #555;
+            background-color: black;
+            margin-top: 50px;
+            color: white;
+        } 
+        admission css
+         body {
+            font-family: Arial, sans-serif;
+            background-color: #5fa8f0c9;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            width: 80%;
+            margin: 10;
+            background: #79a6eb;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .info {
+            margin-bottom: 30px;
+        }
+        .info p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+        }
+        form button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #0056b3;
         }

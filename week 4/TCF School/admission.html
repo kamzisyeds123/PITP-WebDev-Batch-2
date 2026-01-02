@@ -1,40 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="container">
-    <h2>Admission Form</h2>
+    <nav>
+        <ul>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./about.html">About School</a></li>
+            <li><a href="./admission.html">Admissions</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+        <div class="container">
+            <h2>Admission Form</h2>
 
-    <form>
-        <label>First Name</label>
-        <input type="text" placeholder="Enter First Name" required>
+            <form>
+                <label>First Name</label>
+                <input type="text" placeholder="Enter First Name" required>
 
-        <label>Last Name</label>
-        <input type="text" placeholder="Enter Last Name" required>
+                <label>Last Name</label>
+                <input type="text" placeholder="Enter Last Name" required>
 
-        <label>Email</label>
-        <input type="email" placeholder="Enter Email" required>
+                <label>Email</label>
+                <input type="email" placeholder="Enter Email" required>
 
-        <label>Password</label>
-        <input type="password" placeholder="Enter Password" required>
+                <label>Password</label>
+                <input type="password" placeholder="Enter Password" required>
 
-        <label>Date of Birth</label>
-        <input type="date" required>
+                <label for="date">Date of Birth</label>
+                <input type="date" id="date" required>
 
-        <label>Address</label>
-        <textarea rows="3" placeholder="Enter Address" required></textarea>
+                <label>Address</label>
+                <textarea rows="3" placeholder="Enter Address" required></textarea>
 
-        <button type="submit">Submit Admission</button>
-    </form>
-</div>
+                <button type="submit">Submit Admission</button>
+            </form>
+        </div>
 
-<footer>
-    <p>&copy; 2025 My School</p>
-</footer>
+        <footer>
+            <p>&copy; 2025 TCF School. All Rights Reserved.</p>
+        </footer>
 </body>
+
 </html>
